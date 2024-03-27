@@ -12,7 +12,7 @@ function ShowName() {
       isGotName = true;
     }
   }
-  // Если отмена то ничего не выводим
+  // Если не отмена то выводим имя пользователя
   if (userName != null) {
     PrintName(userName);
   }
