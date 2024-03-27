@@ -7,7 +7,7 @@ function ShowName() {
 
   while (!isGotName) {
     userName = prompt("Введите имя пользователя");
-    // Если имя пользователя не соответсвует шаблону
+    // Если имя пользователя соответсвует шаблону
     if (ValidateName(userName)) {
       isGotName = true;
     }
